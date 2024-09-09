@@ -15,5 +15,4 @@ om het scherm terug leeg te maken.
 
 ![Afbeelding met tekst, schermopname, scherm, Rechthoek Automatisch
 gegenereerde
-beschrijving](./media/image1.png){width="5.063206474190726in"
-height="3.052509842519685in"}
+beschrijving](./media/image1.png)
