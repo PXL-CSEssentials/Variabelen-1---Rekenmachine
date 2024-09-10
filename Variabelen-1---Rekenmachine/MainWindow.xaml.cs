@@ -60,7 +60,6 @@ namespace Variabelen_1___Rekenmachine
             number1TextBox.Text = "0";
             number2TextBox.Text = "0";
             resultTextBox.Text = string.Empty;
-
             number1TextBox.Focus();
         }
     }
