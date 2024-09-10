@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Variabelen1_Rekenmachine
+namespace Variabelen_1___Rekenmachine
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,20 +23,20 @@ namespace Variabelen1_Rekenmachine
 
         private void multiplyButton_Click(object sender, RoutedEventArgs e)
         {
-            float getal1 = Convert.ToSingle(number1TextBox.Text);
-            float getal2 = Convert.ToSingle(number2TextBox.Text);
-            float resultaat = getal1 * getal2;
+            float number1 = Convert.ToSingle(number1TextBox.Text);
+            float number2 = Convert.ToSingle(number2TextBox.Text);
+            float result = number1 * number2;
 
-            resultTextBox.Text = Convert.ToString(resultaat);
+            resultTextBox.Text = Convert.ToString(result);
         }
 
         private void divideButton_Click(object sender, RoutedEventArgs e)
         {
-            float getal1 = Convert.ToSingle(number1TextBox.Text);
-            float getal2 = Convert.ToSingle(number2TextBox.Text);
-            float resultaat = getal1 / getal2;
+            float number1 = Convert.ToSingle(number1TextBox.Text);
+            float number2 = Convert.ToSingle(number2TextBox.Text);
+            float result = number1 / number2;
 
-            resultTextBox.Text = Convert.ToString(resultaat);
+            resultTextBox.Text = Convert.ToString(result);
         }
 
         private void addButton_Click(object sender, RoutedEventArgs e)
@@ -49,11 +49,10 @@ namespace Variabelen1_Rekenmachine
         }
         private void minusButton_Click(object sender, RoutedEventArgs e)
         {
-            float getal1 = Convert.ToSingle(number1TextBox.Text);
-            float getal2 = Convert.ToSingle(number2TextBox.Text);
-            float resultaat = getal1 - getal2;
-
-            resultTextBox.Text = Convert.ToString(resultaat);
+            float number1 = Convert.ToSingle(number1TextBox.Text);
+            float number2 = Convert.ToSingle(number2TextBox.Text);
+            float result = number1 - number2;
+            resultTextBox.Text = Convert.ToString(result);
         }
 
         private void clearButton_Click(object sender, RoutedEventArgs e)
